@@ -1,0 +1,12 @@
+.switch {
+  background: lightcoral;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  outline: none;
+}
+/*# sourceMappingURL=dark and light.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,OAAO,CAAA;EACH,UAAU,EAAE,UAAU;EACtB,aAAa,EAAE,MAAM;EACrB,MAAM,EAAE,IAAI;EACZ,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,OAAO;EACf,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "dark and light.scss"
+    ],
+    "names": [],
+    "file": "dark and light.css"
+}

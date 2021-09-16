@@ -1,0 +1,373 @@
+
+@media (min-width: 1920px) {
+
+	
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {	
+    
+.station-images::after{
+    top:0%;
+}	
+.main-station {
+    padding: 25px 10px;
+    min-height: 275px;
+}	
+.station-content p {
+    letter-spacing: inherit;
+}
+.layer-1 h1,
+.title2{
+    font-size: 56px;
+    line-height: 64px;
+    max-width: 490px;
+}    
+.slider-content {
+    margin-top: -140px;
+}   
+.layer-2 p {
+    max-width: 490px;
+}   
+    
+    
+    
+}
+
+
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.header-area .main-menu ul.navbar-nav > li > a {
+    font-size: 12px;
+    margin: 0px 9px;
+    padding: 30px 0px;
+}
+.header-area.stick .header-right-link a.main-search {
+    padding: 17px 0px 18px 5px;
+}
+.header-area-2 .header-right-link .slice-btn {
+    padding: 20px 0px;
+}
+.header-area-2.stick .header-right-link .slice-btn {
+    padding: 20px 0px;
+}
+.header-area .header-right-link .slice-btn {
+    padding: 28px 0px;
+}
+.header-area.stick .header-right-link .slice-btn {
+    padding: 24px 0px;
+}
+.header-area.stick .main-menu ul.navbar-nav > li > a{
+    font-size: 12px;
+    margin: 0px 9px;
+    padding: 27px 0px;
+}
+.header-area.stick .logo a {
+    padding: 11px 0;
+}
+.logo a {
+    padding: 13px 0;
+}
+.header-right-link a.main-search {
+    padding: 20px 0px 20px 5px;
+}
+.layer-1 h1,
+.title2{
+    font-size: 40px;
+    line-height: 46px;
+    max-width: 380px;
+}
+.layer-2 p {
+    max-width: 357px;
+    letter-spacing:inherit;
+}
+.slider-content {
+    margin-top: -140px;
+}
+.about-image::before {
+    width: 180px;
+    height: 180px;
+}   
+.about-content h3 {
+    line-height: 34px;
+    font-size: 26px;
+}   
+.sub-title {
+    font-size: 16px;
+}   
+.image-text {
+    top: 55%;
+}
+.station-images::after{
+    top:0%;
+}
+.station-content p {
+    display: none;
+}
+.single-services {
+    background: transparent;
+}   
+.main-station {
+    min-height: 250px;
+    padding: 40px 20px;
+}  
+.fun-icon i {
+    font-size: 34px;
+    line-height: 46px;
+    border: 1px solid #fff;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}    
+.fun_text span {
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0px 0px 5px;
+}    
+.fun_text {
+    padding-left: 65px;
+}
+.fun-content {
+    padding: 0px;
+}
+.portfolio-single{
+  width: 50%;
+}    
+.intro-content p {
+    letter-spacing: 1px;
+}    
+.single-project-inner {
+    padding: 20px 10px 10px;
+}   
+.project-icon i {
+    margin-right: 10px;
+}    
+.project-text h5 {
+    font-size: 20px;
+}
+.project-text p {
+    font-size: 14px;
+}
+.project-name span {
+    min-width: 110px;
+}    
+.blog-search-option input {
+    width: 69%;
+}    
+.post-img {
+    display: none;
+}    
+.pst-content {
+    width: 100%;
+    padding-left: 0px;
+}
+.pst-content p a {
+    font-size: 16px;
+}
+.blog-details .blog-content {
+    padding:0px;
+}
+.team-content {
+    min-height: 403px;
+}    
+.project-4 .portfolio-single {
+    width: 50%;
+}    
+    
+    
+    
+    
+	
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px}
+.logo {
+    height: inherit;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 0px;
+    z-index: 999999;
+    max-width: 130px;
+}
+.logo a {
+    padding: 0px;
+}
+.slider-content {
+    margin-top: -160px;
+}
+.title1 {
+    font-size: 26px;
+}
+.title2 {
+    font-size: 32px;
+    line-height: 44px;
+}
+.intro-content p {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 28px;
+}  
+.ready-btn {
+    margin-top: 0px;
+    padding: 6px 0px;
+    width: 128px;
+    font-size: 12px;
+}   
+.about-image::before {
+    width: 140px;
+    height: 140px;
+}
+.about-image img {
+    left: 30px;
+    top: 30px;
+}    
+.about-content {
+    padding-top: 40px;
+}   
+.about-content h3 {
+    line-height: 34px;
+    font-size: 26px;
+}    
+.top-content {
+    float: none;
+    width: 100%;
+}
+.image-text {
+    top: 40%;
+}
+.main-services {
+    min-height: inherit;
+    width: 100%;
+    float: none;
+}
+.image-text h4{
+    font-size: 24px;
+}      
+.last-item{
+    margin-bottom: 0px;
+}   
+.section-head > h3 {
+    font-size: 30px;
+    line-height: 40px;
+}   
+.portfolio-single {
+    width: 100%;
+    float: none;
+}      
+.banner-content {
+    padding: 50px 0px;
+}   
+.contact-head {
+    margin-bottom: 30px;
+}    
+.footer-content {
+    margin-bottom: 40px;
+    overflow: hidden;
+}    
+.main-station {
+    width: 100%;
+    float: none;
+}    
+.choose-image {
+    margin-top: 30px;
+}    
+.intro-content{
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    object-fit: cover;
+}
+.slider-images img{
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    object-fit: cover;
+}
+.layer-1 h1 {
+    font-size: 30px;
+    line-height: 40px;
+}   
+.slide-area,
+.slide-area.slide-area-2,
+.dark-version .slide-area,
+.dark-version .intro-content{
+    width: 100%;
+    height: auto;
+}
+.light-version .intro-area .intro-content::after,
+.light-version .slide-area::after{
+    background-image: none;
+    opacity: 0.8;
+    content: "";
+    background: rgba(255,255,255,1);
+}
+.slide-area .slide-content {
+    position: relative;
+    top: 60px;
+}   
+.station-images::after {
+    top: 0%;
+}   
+.services-btn:hover {
+    padding-left: 40%;
+}    
+.single-fun {
+    margin: 15px 0px;
+}
+.banner-text h2 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.banner-content {
+    padding: 20px 0px;
+}
+.banner-text {
+    padding: 0px;
+}  
+.contact-head {
+    padding: 30px 15px;
+}
+.single-testi {
+    padding: 30px 15px;
+}
+.testi-img img {
+    max-width: 80px;
+}   
+.testi-text {
+    padding-left: 95px;
+}
+.team-img {
+    width: 100%;
+    float: none;
+}
+.team-content {
+    width: 100%;
+    float: none;
+    min-height: 295px;
+}   
+.dark-version .slide-area::after {
+    background: transparent;
+} 
+.dark-version .slide-area{
+    background-position: 50% !important;
+}    
+.project-4 .portfolio-single {
+    width: 100%;
+}
+    
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
+
+    
+}
+ 
