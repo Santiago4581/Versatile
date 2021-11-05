@@ -36,7 +36,7 @@
 		<!-- modernizr css -->
 		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
 	</head>
-	<body class="dark-version">
+	<body class="dark-version" id="inicio">
 	
 		<!--[if lt IE 8]>
 			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -73,7 +73,7 @@
                                 <div class="collapse navbar-collapse" id="navbar-example">
                                     <div class="main-menu">
                                         <ul class="nav navbar-nav navbar-right">
-                                                    <li><a class="pagess" href="index.html">Inicio</a>
+                                                    <li><a class="pagess" href="#inicio">Inicio</a>
                                                     </li>
                                                     <li><a class="pagess" href="product-2.html">Productos</a>
                                                     </li>
@@ -104,7 +104,7 @@
                             <div class="mobile-menu">
                                 <nav id="dropdown">
                                     <ul>
-                                        <li><a class="pagess" href="index.html">Inicio</a>
+                                        <li><a class="pagess" href="#inicio">Inicio</a>
                                         </li>
                                         <li><a class="pagess" href="product-2.html">Productos</a>
                                         </li>
@@ -137,35 +137,26 @@
 				</div>
 				<div class="contact-icon">
 					<div class="single-contact">
-						<a href="index-4.html#"><i class="fa fa-map"></i><span>House-8, avanue,Lonndon</span></a>
-						<a href="index-4.html#"><i class="fa fa-phone"></i><span> +3234-7665545</span></a>
-						<a href="index-4.html#"><i class="fa fa-envelope"></i><span>monta@headoffice.com</span></a>
+					<a href="project-2.html#"><i class="fa fa-map"></i><span>Calle 80 sur #8b - 18</span></a>
+                    <a href="project-2.html#"><i class="fa fa-phone"></i><span>  +573124937398</span></a>
+                    <a href="project-2.html#"><i class="fa fa-envelope"></i><span>Versatile.s.a.s@gmail.com</span></a>
+                    <a href="project-2.html#"><i class="fa fa-home"></i><span>Instalaciones de Versatile</span></a>
 					</div>
 					<div class="quote-icons">
-						<h5>Follow us</h5>
+                        <h5>Siguenos en:</h5>
 						<ul>
 							<li>
-								<a href="index-4.html#">
+								<a href="https://www.facebook.com/Versatile-107008868418040" target="blank">
 									<i class="fa fa-facebook"></i>
 								</a>
 							</li>
 							<li>
 								<a href="index-4.html#">
-									<i class="fa fa-twitter"></i>
+									<i class="fa fa-whatsapp"></i>
 								</a>
 							</li>
 							<li>
-								<a href="index-4.html#">
-									<i class="fa fa-google"></i>
-								</a>
-							</li>
-							<li>
-								<a href="index-4.html#">
-									<i class="fa fa-pinterest"></i>
-								</a>
-							</li>
-							<li>
-								<a href="index-4.html#">
+								<a href="https://www.instagram.com/versatile.s.a.s/" target="blank">
 									<i class="fa fa-instagram"></i>
 								</a>
 							</li>
@@ -173,26 +164,23 @@
 					</div>
 				</div>
 				<div class="row form-row">
-					<form id="qcontactForm" method="POST" action="http://rockstheme.com/rocks/monata-live/monata/contact.php" class="contact-form">
+					<form id="qcontactForm" method="POST" action="correos.php" class="contact-form">
 						<div class="col-md-12 inner-column col-sm-12 col-xs-12">
-							<input type="text" id="qname" class="form-control" placeholder="Name" required data-error="Please enter your name">
+							<input type="text" name="name" class="form-control" placeholder="Nombre" required data-error="Porfavor ingresa tu nombre">
 							<div class="help-block with-errors"></div>
-							<input type="email" class="email form-control" id="qemail" placeholder="Email" required data-error="Please enter your email">
+							<input type="email" class="email form-control" name="email" placeholder="Email" required data-error="Por favoryour email">
 							<div class="help-block with-errors"></div>
-							<input type="text" id="qmsg_subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
+							<input type="text" name="msg_subject" class="form-control" placeholder="Asunto" required data-error="Por favor escribe el asunto">
 							<div class="help-block with-errors"></div>
 						</div>
 						<div class="col-md-12 inner-column col-sm-12 col-xs-12">
-							<textarea id="qmessage" rows="7" placeholder="Massage" class="form-control" required data-error="Write your message"></textarea>
+							<textarea name="message" rows="7" placeholder="Mensaje" class="form-control" required data-error="Escribe tu mensaje"></textarea>
 							<div class="help-block with-errors"></div>
-							<button type="submit" id="qsubmit" class="quote-btn">Submit</button>
+							<button type="submit" id="qsubmit" class="quote-btn">Enviar</button>
 							<div id="qmsgSubmit" class="h3 hidden"></div> 
 							<div class="clearfix"></div>
-						</div>   
+						</div>    
 					</form>
-                    <?php 
-        include("registrar.php");
-        ?>
 				</div>
 			</div>
 		</div>
@@ -267,7 +255,7 @@
                                             <img src="img/project/default/2.jpg" alt="" />
                                             <div class="add-actions text-center">
                                                 <div class="project-dec">
-                                                    <h4>Tacon de punta fina</h4>
+                                                    <h4>Botin</h4>
                                                     <span>$</span>
                                                     <span>110.000</span>
                                                 </div>
@@ -356,13 +344,13 @@
 			<!-- End main content -->
 		</div>
 		<!-- End portfolio Area --> 
-        <div class="services-area bg-dark-2 area-padding">
-            <div class="container" id="experiencias">
+        <div class="services-area bg-dark-2 area-padding"id="experiencias">
+            <div class="container">
                 <div class="row">
 					<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="section-head text-center">
-                            <h5 class="sub-title">Nuestros logros</h5>
-						    <h3>De <span class="color">nuestros clientes</span></h3>
+                            <h5 class="sub-title" >Nuestros logros</h5>
+						    <h3>De <span class="color" >nuestros clientes</span></h3>
 						</div>
 					</div>
 				</div>
@@ -382,8 +370,8 @@
 									<i class="icon icon-graduation-hat"></i>
 								</div>
 								<div class="fun_text">
-									<span class="counter">1420</span>
-									<h5>Complete project</h5>
+									<span class="counter">3</span>
+									<h5>Proyectos exitosos</h5>
 								</div>
 						    </div>
 						</div>
@@ -394,8 +382,8 @@
 									 <i class="icon icon-earth"></i>
 								</div>
 								<div class="fun_text">
-									<span class="counter">80</span>
-									<h5>World countries</h5>
+									<span class="counter">1</span>
+									<h5>Clientes satisfechos</h5>
 								</div>
 							</div>
 						</div>
@@ -406,8 +394,8 @@
 									<i class="icon icon-star"></i>
 								</div>
 								<div class="fun_text">
-									<span class="counter">20</span>
-									<h5>Years of experience</h5>
+									<span class="counter">80</span>
+									<h5>Calificaciones</h5>
 								</div>
 							</div>
 						</div>
@@ -418,7 +406,7 @@
 								</div>
 								<div class="fun_text">
 									<span class="counter">40</span>
-									<h5>Awards won</h5>
+									<h5>Mejores calificaciones</h5>
 								</div>
 							</div>
 						</div>
@@ -429,7 +417,7 @@
             </div>
         </div>
         <!-- Start Service area -->
-		<div class="choose-area bg-dark-2 area-padding">
+		<div class="choose-area bg-dark-2 area-padding" id="clientes">
             <div class="section-head text-center" id="clientes">
                 <h5 class="sub-title">Para todos</h5>
                 <h3>Nuestros<span class="color">Clientes</span></h3>
@@ -440,30 +428,30 @@
 					<div class="col-md-6 col-sm-6 col-xs-12">
 						<div class="choose-wrapper">
 							<div class="choose-headline">
-								<h3>Our business system for worldwide customer used services</h3>
+								<h3>Generamos un cambio en el calzado femenino mediante:   </h3>
 							</div>
 							<div class="choose-all">
 								<div class="single-choose">
 								   <a class="choose-icon" href="index-4.html#"><i class="flaticon-idea"></i></a>
 									<div class="choose-content">
-										<h4><a href="index-4.html#">Innovative ideas</a></h4>
-										<p>Our independent agency, free from the internal demands of traditional firms, can focus.</p>
+										<h4><a href="index-4.html#">Ideas innovadoras</a></h4>
+										<p>Desde el aspecto de diseños, siempre buscamos que estos se adapten bien a la forma de vestir del cliente</p>
 									</div>
 								</div>
 								<!-- Start services -->
 								<div class="single-choose">
 									<a class="choose-icon" href="index-4.html#"><i class="flaticon-layers"></i></a>
 									<div class="choose-content">
-										<h4><a href="index-4.html#">Market analysis</a></h4>
-										<p>Our independent agency, free from the internal demands of traditional firms, can focus.</p>
+										<h4><a href="index-4.html#">Análisis de mercados</a></h4>
+										<p>Para contruir un buen producto, es necesario conocer la opinion del publico y asi mismo cono funciona la competencia</p>
 									</div>
 								</div>
 								<!-- Start services -->
 								<div class="single-choose">
 									<a class="choose-icon" href="index-4.html#"><i class="flaticon-worldwide"></i></a>
 									<div class="choose-content">
-										<h4><a href="index-4.html#">Worlwide marketing</a></h4>
-										<p>Our independent agency, free from the internal demands of traditional firms, can focus.</p>
+										<h4><a href="index-4.html#">Uso de redes sociales</a></h4>
+										<p>Para qque el publico nos conociera, nos fue necesario difundirnos a travez de redes sociales</p>
 									</div>
 								</div>
 							</div>
@@ -472,9 +460,9 @@
                     <!-- Start Column -->
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="choose-image">
-                        	<img src="img/about/vd.jpg" alt="Choose Imagess">
+                        	<img src="img/about/vd.png" alt="Choose Imagess">
                         	<div class="video-content">
-								<a href="https://www.youtube.com/watch?v=O33uuBh6nXA" class="video-play vid-zone">
+								<a href="img/project/default/WhatsApp Video 2021-10-25 at 1.03.32 AM.mp4" class="video-play vid-zone">
 									<i class="fa fa-play"></i>
 								</a>
 							</div>
@@ -485,8 +473,8 @@
 			</div>
 		</div>
 		<!-- End Service area -->
-        <div class="section-head text-center">
-            <h5 class="sub-title" id="nosotros">Nosotros</h5>
+        <div class="section-head text-center" id="nosotros">
+            <h5 class="sub-title" >Nosotros</h5>
             <h3>Nuestro <span class="color">Grupo</span></h3>
         </div>
         <div class="body-page">
@@ -496,7 +484,7 @@
                         <img src="img/team/t1.jpg">
                     </div>
                     <div class="info-description">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi illo sapiente error a, iste eligendi tempora praesentium corporis quam quaerat at natus cumque quo eius ipsa repellendus velit eos? Amet praesentium, repellat magni id voluptatibus quas delectus nam itaque iure distinctio! Quibusdam blanditiis dolore rem! Nam itaque unde fugit ex?</p>
+                        <p>Santiago Fonseca: Estudiante del Liceo Latinoamericano del sur, con conociemientos en programacion web, con manejo de photoshop e illustrator</p>
                         <input type="button" value="Leer Más">
                     </div>
                 </div>
@@ -506,8 +494,8 @@
                         <img src="img/team/t4.jpg">
                     </div>
                     <div class="info-description">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi illo sapiente error a, iste eligendi tempora praesentium corporis quam quaerat at natus cumque quo eius ipsa repellendus velit eos? Amet praesentium, repellat magni id voluptatibus quas delectus nam itaque iure distinctio! Quibusdam blanditiis dolore rem! Nam itaque unde fugit ex?</p>
-                        <input type="button" value="Leer Más">
+                        <p>Juliana Bonilla: Estudiante del Liceo latinoamericano del sur, encarga del diseño de la imagen empresarial, con conocimientos en el manejo de photoshop, ilustrator y SketchUp  </p>
+                        <input type="button" value="Leer Mas">
                     </div>
                 </div>
 
@@ -516,15 +504,15 @@
                         <img src="img/team/t5.jpg">
                     </div>
                     <div class="info-description">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi illo sapiente error a, iste eligendi tempora praesentium corporis quam quaerat at natus cumque quo eius ipsa repellendus velit eos? Amet praesentium, repellat magni id voluptatibus quas delectus nam itaque iure distinctio! Quibusdam blanditiis dolore rem! Nam itaque unde fugit ex?</p>
+                        <p>Jemy Sanchez: Encargada de la parte de gestion empresarial, y el contro financiero de la empresa, con conociemientos en el manejo de excel mediante codigos y word</p>
                         <input type="button" value="Leer Más">
                     </div>
                 </div>
             </div>
         </div>
         <!-- Start contact Area -->
-        <div class="contact-page bg-dark-2 area-padding">
-            <div class="container" id="contacto">
+        <div class="contact-page bg-dark-2 area-padding" id="contacto">
+            <div class="container">
                <div class="row">
 					<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="section-head text-center">
@@ -536,14 +524,15 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="contact-head">
-                            <h3>Request a Contact us</h3>
-                            <p>Water The universal acceptance of website has given a tremendous opportunity for merchants to do crossborder transactions instantly and at reduced cost.</p>
+                            <h3>Contactanos</h3>
+                            <p>Si tienes alguna opinion o sugerencia o algun pedido puedes enviarnos un mesaje. Te responderemos lo mas rapido posible</p>
                             <div class="contact-icon">
 								<div class="single-contact">
-									<h5>Location :</h5>
-									<a href="index-4.html#"><i class="fa fa-map"></i><span>Road-7 old Street, Manhatan</span></a>
-									<a href="index-4.html#"><i class="fa fa-phone"></i><span>+132-6565 7654</span></a>
-									<a href="index-4.html#"><i class="fa fa-envelope"></i><span>monata@ofoffice.com</span></a>
+									<h5>Localizanos :</h5>
+                                    <a href="contact.html"><i class="fa fa-map"></i><span>Calle 80 sur #8b - 18</span></a>
+                                    <a href="project-2.html#"><i class="fa fa-phone"></i><span> +573124937398</span></a>
+                                    <a href="https://www.google.com/gmail/" target="blank"><i class="fa fa-envelope"></i><span>Versatile.s.a.s@gmail.com</span></a>									
+                                    <a href="contact.html"><i class="fa fa-home"></i><span>Instalaciones de versatile</span></a>
 								</div>
 							</div>
                         </div>
@@ -552,25 +541,25 @@
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="contact-form">
                             <div class="row">
-                                <form id="contactForm" method="POST" action="http://rockstheme.com/rocks/monata-live/monata/contact.php" class="contact-form">
+                                <form id="contactForm" method="POST" action="correos.php" class="contact-form">
                                     <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
+                                        <input type="text" name="name" class="form-control" placeholder="Nombre" required data-error="Please enter your name">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                                        <input type="email" class="email form-control" name="email" placeholder="Email" required data-error="Please enter your email">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="col-md-12 col-sm-12 col-xs-12">
-                                        <input type="text" id="msg_subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
+                                        <input type="text" name="msg_subject" class="form-control" placeholder="Asunto" required data-error="Please enter your message subject">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="col-md-12 col-sm-12 col-xs-12">
-                                        <textarea id="message" rows="7" placeholder="Massage" class="form-control" required data-error="Write your message"></textarea>
+                                        <textarea name="message" rows="7" placeholder="Mensaje" class="form-control" required data-error="Write your message"></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-                                        <button type="submit" id="submit" class="contact-btn">Submit</button>
+                                        <button type="submit" id="submit" class="contact-btn">Enviar</button>
                                         <div id="msgSubmit" class="h3 text-center hidden"></div> 
                                         <div class="clearfix"></div>
                                     </div>   
@@ -592,32 +581,11 @@
                             <div class="footer-content">
                                <div class="footer-head">
 									
-									<p>We help agencies to define their new business objectives and then create the road map to get them there by devising a business.We help agencies to define their new business.</p>
+                                <p>Somos Versatie, nos dedicamos a la creación y fabricación de calzado con un toque innovador, siempre buscamos mantener en nuestros productos nuestros valores.</p>
 								</div>
                             </div>
                         </div>
                         <!-- end single footer -->
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="footer-content">
-                                <div class="footer-head">
-                                    <h4>Services Link</h4>
-                                    <ul class="footer-list">
-                                        <li><a href="index-4.html#">Business</a></li>
-                                        <li><a href="index-4.html#">Agency </a></li>
-                                        <li><a href="index-4.html#">Social media</a></li>
-                                        <li><a href="index-4.html#">Branding</a></li>
-                                        <li><a href="index-4.html#">Design </a></li>
-                                    </ul>
-                                    <ul class="footer-list hidden-sm">
-										<li><a href="index-4.html#">Search engine</a></li>
-                                        <li><a href="index-4.html#">Online support</a></li>
-                                        <li><a href="index-4.html#">Development</a></li>
-                                        <li><a href="index-4.html#">Pay per click</a></li>
-                                        <li><a href="index-4.html#">Event activation</a></li>
-									</ul>
-                                </div>
-                            </div>
-                        </div>
                         <!-- end single footer -->
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="footer-content">
@@ -625,41 +593,29 @@
                                     <h4>Tags</h4>
                                     <div class="footer-tags">
 										<ul>
-											<li><a href="index-4.html#">Business</a></li>
-											<li><a href="index-4.html#">Agency </a></li>
-											<li><a href="index-4.html#">Media</a></li>
-											<li><a href="index-4.html#">Social</a></li>
-											<li><a href="index-4.html#">Photoshop</a></li>
-											<li><a href="index-4.html#">Seo</a></li>
-											<li><a href="index-4.html#">development</a></li>
-											<li><a href="index-4.html#">Search</a></li>
-											<li><a href="index-4.html#">Design</a></li>
+											<li><a href="index-4.html#">Noticia</a></li>
+											<li><a href="index-4.html#">Botines</a></li>
+											<li><a href="index-4.html#">Zapatos</a></li>
+											<li><a href="index-4.html#">Cuellos</a></li>
+											<li><a href="index-4.html#">Diseño</a></li>
+											<li><a href="index-4.html#">Más información</a></li>
+											<li><a href="index-4.html#">Fabricación</a></li>
 										</ul>
                                     </div>
                                     <div class="footer-icons">
                                         <ul>
                                             <li>
-                                                <a href="index-4.html#">
+                                                <a href="https://www.facebook.com/Versatile-107008868418040" target="blank">
                                                     <i class="fa fa-facebook"></i>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="index-4.html#">
-                                                    <i class="fa fa-twitter"></i>
+                                                    <i class="fa fa-whatsapp"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index-4.html#">
-                                                    <i class="fa fa-google"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="index-4.html#">
-                                                    <i class="fa fa-pinterest"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="index-4.html#">
+                                                <a href="https://www.instagram.com/versatile.s.a.s/" target="blank">
                                                     <i class="fa fa-instagram"></i>
                                                 </a>
                                             </li>
@@ -677,8 +633,7 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="copyright">
                                 <p>
-                                    Copyright © 2019
-                                    <a href="index-4.html#">Monata</a> All Rights Reserved
+                                    <a href="blog-sidebar.html#">Versatile</a>.Al ritmo de tus pasos 
                                 </p>
                             </div>
                         </div>

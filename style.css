@@ -54,6 +54,9 @@
 /*----------------------------------------*/
 /*  1.  Theme default CSS
 /*----------------------------------------*/
+:root{
+	scroll-behavior: smooth;
+}
 
 html, body {
 	height: 100%;
@@ -89,7 +92,7 @@ img {max-width:100%;
 }
 p {
 	margin:0 0 15px;
-    color: #444;
+    color: rgb(216, 216, 216);
 }
 h1, h2{
    font-family: 'Montserrat', sans-serif;
@@ -190,7 +193,7 @@ padding: 0;
     width: 2px;
 }
 .bg-color{
-    background: #fcfafa;
+    background: #171717;
 }
 #scrollUp {
     background: #000 none repeat scroll 0 0;
@@ -217,7 +220,7 @@ a:focus {
     text-decoration: none;
 }
 body {
-  background: #fff none repeat scroll 0 0;
+  background: #171717 none repeat scroll 0 0;
   color: #999999;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -320,7 +323,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
 }
 .appointment-wrapper .appoint-box {
     position: relative;
-    background-color: #fff;
+    background-color: #191919;
     padding: 30px 30px;
 }
 .appointment-wrapper .appoint-box .cross-icon{
@@ -361,7 +364,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     visibility: visible;
 }
 .appointment-wrapper .single-contact span {
-    color: #444;
+    color: rgb(207, 207, 207);
     font-size: 17px;
 }
 .appointment-wrapper .single-contact h5 {
@@ -373,7 +376,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     margin-top: 30px;
 }
 .quote-icons h5 {
-    color: #444;
+    color: rgb(248, 248, 248);
 	margin-bottom: 20px;
 }
 .quote-icons ul li {
@@ -427,7 +430,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
 }
 .appointment-wrapper .contact-form input[type="text"], 
 .appointment-wrapper .contact-form input[type="email"] {
-    border: 1px solid #ccc;
+    border: 1px solid rgb(48, 48, 48);
     border-radius: 3px;
     height: 44px;
     margin-bottom: 15px;
@@ -435,7 +438,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
 	background: transparent;
 }
 .appointment-wrapper .contact-form textarea#message {
-    border: 1px solid #ccc;
+    border: 1px solid rgb(48, 48, 48);
     border-radius: 3px;
     height: 120px;
     padding: 20px;
@@ -446,7 +449,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
 /*  2. Header Area 
 /*----------------------------------------*/
 .header-area {
-    background: #fff;
+    background: #171717;
     z-index: 9999;
     position: relative;
 }
@@ -456,8 +459,8 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     top: 0;
     width: 100%;
     z-index: 999999;
-	box-shadow: 1px 1px 3px #ddd;
-    background: #fff;
+	box-shadow: 1px 1px 3px #191919;
+    background: #171717;
 }
 
 .logo {
@@ -475,7 +478,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
 }
 .main-menu ul.navbar-nav li a {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    color: #444;
+    color: rgb(235, 235, 235);
     font-size: 13px;
     font-weight: 700;
     padding: 30px 15px;
@@ -486,12 +489,13 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     border: medium none;
     margin-bottom: 0;
 }
+
 .navbar-default {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
 }
 .stick .main-menu ul.navbar-nav li a,
 .stick .header-social >li>a {
-    color: #444;
+    color: rgb(235, 235, 235);
 }
 .navbar-default .navbar-toggle {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -504,7 +508,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     color: #b3394e;
 }
 .main-menu ul.nav li ul.sub-menu {
-    background: #fff;
+    background: #171717;
     left: 0;
     opacity: 0;
     position: absolute;
@@ -549,7 +553,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
 	position: relative;
 }
 .sub-dropdown {
-  background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+  background: rgb(27, 26, 26) none repeat scroll 0 0;
   position: absolute;
   top: 20px;
   transition: all 0.3s ease 0s;
@@ -606,7 +610,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
 .search-option button.button {
     background: #b3394e;
     border: medium none;
-    color: #fff;
+    color: rgb(224, 222, 222);
     display: inline-block;
     float: right;
     font-size: 17px;
@@ -634,7 +638,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
 /*  3. Mobile Menu Area
 /*----------------------------------------*/
 .mobile-menu-area {
-    background: #fff none repeat scroll 0 0;
+    background: #171717 none repeat scroll 0 0;
     padding: 10px 0px ;
 }
 .mean-container .mean-bar::after {
@@ -656,8 +660,8 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     width: 100%;
 }
 .mean-container .mean-nav ul li a {
-    background: #fff none repeat scroll 0 0;
-    color: #444;
+    background: #171717 none repeat scroll 0 0;
+    color: rgb(206, 206, 206);/*aqui*/
     display: block;
     float: left;
     font-size: 12px;
@@ -724,7 +728,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: url(img/background/shape2.png);
+    background-image: url(img/background/shape1.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -1351,7 +1355,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
 .contact-page .contact-btn {
     background: #b3394e;
     border: 2px solid #b3394e;
-    color: #fff;
+    color: rgb(225, 225, 225);
     display: inline-block;
     font-size: 16px;
     margin-top: 5px;
@@ -1374,16 +1378,16 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
 /*----------------------------------------*/
 .footer-area {
     padding: 70px 0;
-    background: #4a4a4a;
+    background: #0f0f0f
 }
 
 .footer-head p {
-    color: #444;
+    color: rgb(182, 180, 180);
     letter-spacing: 0.80px;
     line-height: 26px;
 }
 .footer-head h4 {
-    color: #444;
+    color: rgb(245, 245, 245);
     font-size: 20px;
     margin-bottom: 20px;
     text-transform: capitalize;
@@ -1393,7 +1397,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     display: inline-block;
 }
 .footer-icons ul li a {
-    color: #444;
+    color: rgb(206, 206, 206);
     display: block;
     font-size: 16px;
     line-height: 28px;
@@ -1422,7 +1426,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     float: left;
 }
 .footer-tags li a {
-    color: #444;
+    color: rgb(182, 180, 180);
     display: block;
     font-size: 16px;
     font-weight: 500;
@@ -1440,7 +1444,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     font-weight: 700;
 }
 .footer-list li a {
-    color: #444;
+    color: rgb(182, 180, 180);
     padding: 7px 0px 7px 20px;
     display: block;
     position: relative;
@@ -1467,7 +1471,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     background: #b3394e;
 }
 .footer-area-bottom {
-    background: #F6F5F5 none repeat scroll 0 0;
+    background: #141414 none repeat scroll 0 0;
     padding: 25px 0;
 }
 .copyright-text a:hover{
@@ -1680,7 +1684,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     font-size: 24px;
     text-transform: capitalize;
     font-weight: 600;
-    color: #4a4a4a;
+    color: #d8d7d7;
     line-height: 24px;
 }
 .blog-meta span {
@@ -1740,7 +1744,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
 /*  18. Home 3 Area
 /*----------------------------------------*/
 .header-area-3 {
-    background: #444;
+    background: #fff;
     position: relative;
 }
 .intro-area{
@@ -1756,7 +1760,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: url(img/background/shape2.png);
+    background-image: url(img/background/shape1.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -1926,7 +1930,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: url(img/background/shape2.png);
+    background-image: url(img/background/shape1.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -2115,7 +2119,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: url(img/background/shape3.png);
+    background-image: url(img/background/shape2.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: bottom center;
@@ -2143,7 +2147,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     text-transform: uppercase;
     position: relative;
     font-weight: 800;
-    color: #001033;
+    color: #b3394e;
     margin-bottom: 0px;
 }
 .breadcrumb .section-headline {
@@ -2155,7 +2159,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
 }
 .breadcrumb ul li {
     display: inline-block;
-    color: #444;
+    color: #ccc;
     padding: 0px 10px 0px 20px;
     position: relative;
     font-size: 15px;
@@ -2426,7 +2430,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
 /*----------------------------------------*/
 .blog-page-area .single-blog {
     padding: 5px;
-    background: #fff;
+    background: #e9e5e5;
 }
 .blog-page-area .blog-content{
 	padding: 10px 15px 20px;
@@ -2436,12 +2440,12 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     width: 80%;
     border: none;
     height: 42px;
-    background: transparent;
+    background: rgb(46, 46, 46);
 }
 .blog-search-option {
     margin-bottom: 30px;
     display: block;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(46, 46, 46);
 }
 .blog-search-option button {
     background: transparent;
@@ -2457,7 +2461,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
 }
 .left-blog h4 {
     position: relative;
-    color: #444;
+    color: rgb(235, 235, 235);
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -2465,7 +2469,8 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     text-transform: capitalize;
 }
 .left-head-blog {
-    border: 1px solid #f5f5f5;
+    background-color: #1a1a1a;
+    border: 1px solid #1a1a1a;
     padding: 30px 20px;
 }
 .left-blog h4::after {
@@ -2485,7 +2490,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     display: block;
 }
 .left-blog ul li a {
-    color: #444;
+    color: rgb(206, 206, 206);
     display: block;
     font-size: 15px;
     padding: 6px 0px 6px 25px;
@@ -2537,7 +2542,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     background: #f9f9f9;
 }
 .pst-content p a {
-    color: #444;
+    color: rgb(185, 183, 183);
     font-size: 14px;
     font-weight: 600;
 }
@@ -2561,7 +2566,7 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
 .left-tags .left-side-tags ul li a {
     padding: 0px 15px 0px 0px;
     width: auto;
-    color: #444;
+    color: rgb(206, 206, 206);
     border-radius: 3px;
     font-weight: 600;
     font-size: 14px;
@@ -2588,8 +2593,8 @@ div#preloader { position: fixed; left: 0; top: 0; z-index: 99999; width: 100%; h
     padding: 6px 12px;
     line-height: 1.42857143;
     text-decoration: none;
-    color: #444;
-    background-color: #f4f5f5;
+    color: rgb(228, 228, 228);
+    background-color: #822c2c;
     border: none;
     margin-left: -1px;
     border-radius: 5px;
@@ -3000,7 +3005,6 @@ span.email-notes{
     width: 100%;
     background-image: url(img/background/shape2.png);
     background-repeat: no-repeat;
-    background-attachment: scroll;
     background-position: center center;
     background-size: cover;
     opacity: 0.9;
@@ -3105,7 +3109,7 @@ span.email-notes{
     padding: 10px 0px;
 }
 .dark-version .mean-container a.meanmenu-reveal span{
-    background: #fff;
+    background: #171717;
 }
 .dark-version .mean-container .mean-nav,
 .dark-version .mean-container .mean-nav ul li{
